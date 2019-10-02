@@ -1,0 +1,1160 @@
+25147 remove("/tmp/clonelab_autograde")          = 0
+25147 fopen("/tmp/clonelab_autograde", "a")      = 0x145c260
+25147 fclose(0x145c260)                          = 0
+25147 puts("------------------")                 = 19
+25147 printf("Starting part %d...\n", 1)         = 19
+25147 puts("------------------\n")               = 20
+25147 remove("part2Output.txt")                  = 0
+25147 fopen("part2Output.txt", "a")              = 0x145c260
+25147 fclose(0x145c260)                          = 0
+25147 fork( <unfinished ...>
+25148 <... fork resumed> )                       = 0
+25147 <... fork resumed> )                       = 25148
+25148 getpid( <unfinished ...>
+25147 signal(SIGCHLD, 0x401276 <unfinished ...>
+25148 <... getpid resumed> )                     = 25148
+25147 <... signal resumed> )                     = nil
+25147 signal(SIGALRM, 0x40128c <unfinished ...>
+25148 setpgid(25148, 25148)                      = 0
+25148 getpid( <unfinished ...>
+25147 <... signal resumed> )                     = nil
+25147 alarm(5 <unfinished ...>
+25148 <... getpid resumed> )                     = 25148
+25148 fork( <unfinished ...>
+25147 <... alarm resumed> )                      = 0
+25147 pause(5, 0x7ffef31b8b30, 0x7ffef31b8bd0, 0x7f36c15b87fb <unfinished ...>
+25149 <... fork resumed> )                       = 0
+25148 <... fork resumed> )                       = 25149
+25149 sprintf( <unfinished ...>
+25148 sprintf( <unfinished ...>
+25149 <... sprintf resumed> "25148", "%d", 25148) = 5
+25148 <... sprintf resumed> "25148", "%d", 25148) = 5
+25149 execl(0x402545, 0x40253e, 0x40253a, 0x7ffef31b8d50 <unfinished ...>
+25148 sprintf("25149", "%d", 25149)              = 5
+25148 execl(0x40255d, 0x402554, 0x40253a, 0x7ffef31b8d50 <no return ...>
+25149 --- Called exec() ---
+25148 --- Called exec() ---
+25149 __libc_start_main([ "andrew", "--p", "25148" ] <unfinished ...>
+25149 signal(SIGUSR1, 0x1)                       = nil
+25148 __libc_start_main([ "contessa", "--p", "25149" ] <unfinished ...>
+25149 strcmp("--p", "--p" <unfinished ...>
+25148 strcmp("--p", "--p" <unfinished ...>
+25149 <... strcmp resumed> )                     = 0
+25148 <... strcmp resumed> )                     = 0
+25149 __isoc99_sscanf(0x7ffffbff35b9, 0x40157e, 0x602130, 0xfffffff8 <unfinished ...>
+25148 __isoc99_sscanf(0x7ffe1959e5b7, 0x4014c4, 0x7ffe1959df40, 0xfffffff8 <unfinished ...>
+25149 <... __isoc99_sscanf resumed> )            = 1
+25149 signal(SIGUSR1, 0x401170 <unfinished ...>
+25148 <... __isoc99_sscanf resumed> )            = 1
+25148 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... signal resumed> )                     = 0x1
+25149 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25148 <... fopen resumed> )                      = 0x130e260
+25148 fprintf(0x130e260, "%s\n", "q1.1: 1.1" <unfinished ...>
+25149 <... fopen resumed> )                      = 0xf52260
+25148 <... fprintf resumed> )                    = 10
+25149 fprintf(0xf52260, "%s\n", "q1.1: 2.1" <unfinished ...>
+25148 fclose(0x130e260 <unfinished ...>
+25149 <... fprintf resumed> )                    = 10
+25149 fclose(0xf52260 <unfinished ...>
+25148 <... fclose resumed> )                     = 0
+25148 usleep(10000 <unfinished ...>
+25149 <... fclose resumed> )                     = 0
+25149 sigpending(<>)                             = 0
+25149 sigismember(<>, SIGUSR1)                   = 0
+25149 usleep(1000)                               = <void>
+25149 usleep(1000)                               = <void>
+25149 usleep(1000)                               = <void>
+25149 usleep(1000)                               = <void>
+25149 usleep(1000 <unfinished ...>
+25148 <... usleep resumed> )                     = <void>
+25149 <... usleep resumed> )                     = <void>
+25148 kill(25149, 0 <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25148 <... kill resumed> )                       = 0
+25148 signal(SIGUSR2, 0x401040)                  = nil
+25148 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 usleep(1000 <unfinished ...>
+25148 <... fopen resumed> )                      = 0x130e260
+25148 fprintf(0x130e260, "%s\n", "q1.1: 1.2")    = 10
+25148 fclose(0x130e260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 usleep(1000 <unfinished ...>
+25148 <... fclose resumed> )                     = 0
+25148 __printf_chk(1, 0x401488, 0x6020fc, 0x623d) = 38
+25148 kill(25149, SIGUSR1 <no return ...>
+25149 --- SIGUSR1 (User defined signal 1) ---
+25148 <... kill resumed> )                       = 0
+25149 __printf_chk(1, 0x401567, 0x60210c, 0x7fd6f1d2a928 <unfinished ...>
+25148 usleep(1000 <unfinished ...>
+25149 <... __printf_chk resumed> )               = 26
+25149 __printf_chk(1, 0x401590, 0x60210c, 0x623c) = 41
+25149 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25148 <... usleep resumed> )                     = <void>
+25148 kill(25149, SIGUSR1 <unfinished ...>
+25149 <... fopen resumed> )                      = 0xf52260
+25148 <... kill resumed> )                       = 0
+25149 fprintf(0xf52260, "%s\n", "q1.1: 2.2" <unfinished ...>
+25148 usleep(1000 <unfinished ...>
+25149 <... fprintf resumed> )                    = 10
+25149 fclose(0xf52260)                           = 0
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25148 <... usleep resumed> )                     = <void>
+25148 kill(25149, SIGUSR1 <no return ...>
+25148 --- SIGUSR2 (User defined signal 2) ---
+25149 <... kill resumed> )                       = 0
+25148 __printf_chk(1, 0x401440, 0x6020fc, 0 <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25148 <... __printf_chk resumed> )               = 73
+25148 fopen("/tmp/clonelab_autograde", "a")      = 0x130e260
+25148 fprintf(0x130e260, "%s\n", "q1.1: 1.3" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25148 <... fprintf resumed> )                    = 10
+25148 fclose(0x130e260 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25148 <... fclose resumed> )                     = 0
+25148 exit(0 <no return ...>
+25148 +++ exited (status 0) +++
+25147 --- SIGCHLD (Child exited) ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25147 <... pause resumed> )                      = 0xffffffff
+25147 puts("\n" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25147 <... puts resumed> )                       = 2
+25147 puts("------------------")                 = 19
+25147 printf("Starting part %d...\n", 2)         = 19
+25147 puts("------------------\n" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25147 <... puts resumed> )                       = 20
+25147 fork( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25147 <... fork resumed> )                       = 25151
+25151 <... fork resumed> )                       = 0
+25147 signal(SIGCHLD, 0x401276)                  = 0x401276
+25147 signal(SIGALRM, 0x40128c <unfinished ...>
+25151 getpid( <unfinished ...>
+25147 <... signal resumed> )                     = 0x40128c
+25147 alarm(5 <unfinished ...>
+25151 <... getpid resumed> )                     = 25151
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25151 setpgid(25151, 25151 <unfinished ...>
+25147 <... alarm resumed> )                      = 5
+25147 pause(5, 0x7ffef31b8b30, 0x7ffef31b8bd0, 0x7f36c15b87fb <unfinished ...>
+25151 <... setpgid resumed> )                    = 0
+25151 fopen("part2Output.txt", "w+" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25151 <... fopen resumed> )                      = 0x145c260
+25151 getpid()                                   = 25151
+25151 sprintf( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 <... sprintf resumed> "25151", "%d", 25151) = 5
+25151 fprintf(0x145c260, "Root process has pid %s", "25151" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25151 <... fprintf resumed> )                    = 26
+25151 fork( <unfinished ...>
+25152 <... fork resumed> )                       = 0
+25151 <... fork resumed> )                       = 25152
+25152 getppid( <unfinished ...>
+25151 wait(nil <unfinished ...>
+25152 <... getppid resumed> )                    = 25151
+25149 <... usleep resumed> )                     = <void>
+25152 getpid( <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25152 <... getpid resumed> )                     = 25152
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 getenv("NOREPORT")                         = nil
+25152 getpid()                                   = 25152
+25152 sprintf( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25152 <... sprintf resumed> "part2: registerProc 1, 1, 25152,"..., "part2: registerProc %d, %d, %d, "..., 1, 1, 25152, 25151) = 38
+25152 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... fopen resumed> )                      = 0x145e8b0
+25152 fprintf(0x145e8b0, "%s\n", "part2: registerProc 1, 1, 25152,"...) = 39
+25152 fclose(0x145e8b0)                          = 0
+25152 fork( <unfinished ...>
+25153 <... fork resumed> )                       = 0
+25152 <... fork resumed> )                       = 25153
+25153 getppid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25152 wait(nil <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 <... getppid resumed> )                    = 25152
+25153 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25153 <... getpid resumed> )                     = 25153
+25153 getenv("NOREPORT")                         = nil
+25153 getpid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 <... getpid resumed> )                     = 25153
+25153 sprintf( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25153 <... sprintf resumed> "part2: registerProc 2, 1, 25153,"..., "part2: registerProc %d, %d, %d, "..., 2, 1, 25153, 25152) = 38
+25149 usleep(1000 <unfinished ...>
+25153 fopen("/tmp/clonelab_autograde", "a")      = 0x145e8b0
+25153 fprintf(0x145e8b0, "%s\n", "part2: registerProc 2, 1, 25153,"...) = 39
+25153 fclose(0x145e8b0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25153 <... fclose resumed> )                     = 0
+25149 usleep(1000 <unfinished ...>
+25153 fwrite(" (message from process level2.1)"..., 1, 33, 0x145c260) = 33
+25153 fclose(0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25153 <... fclose resumed> )                     = 0
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 execl(0x402373, 0x40236a, 0, 2 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25153 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25153 __libc_start_main([ "level2.1" ] <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25153 <... getpid resumed> )                     = 25153
+25149 usleep(1000 <unfinished ...>
+25153 __sprintf_chk(0x7fffb1b4df70, 1, 50, 0x40178b) = 37
+25153 signal(SIGUSR1, 0x4013d0)                  = nil
+25153 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 <... fopen resumed> )                      = 0x771260
+25153 fprintf(0x771260, "%s\n", "part2: 2_registerExec level2.1, "... <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25153 <... fprintf resumed> )                    = 38
+25153 fclose(0x771260)                           = 0
+25153 __sprintf_chk(0x7fffb1b4df50, 1, 20, 0x401807 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25153 <... __sprintf_chk resumed> )              = 8
+25153 wait(nil <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25153 <... wait resumed> )                       = -1
+25149 usleep(1000 <unfinished ...>
+25153 exit(0 <no return ...>
+25153 +++ exited (status 0) +++
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <no return ...>
+25152 --- SIGCHLD (Child exited) ---
+25152 <... wait resumed> )                       = 25153
+25149 <... kill resumed> )                       = 0
+25152 execl(0x40238d, 0x402384, 0x7ffef31b8d50, 0 <unfinished ...>
+25149 usleep(1000 <no return ...>
+25152 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25152 __libc_start_main([ "level1.1", "25151" ] <unfinished ...>
+25152 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... getpid resumed> )                     = 25152
+25152 __sprintf_chk(0x7ffe8ee221d0, 1, 50, 0x40178b) = 37
+25152 signal(SIGUSR1, 0x4013d0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25152 <... signal resumed> )                     = nil
+25152 strtol(0x7ffe8ee235b7, 0, 10, 0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... strtol resumed> )                     = 0x623f
+25152 getppid()                                  = 25151
+25152 usleep(50000 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... usleep resumed> )                     = <void>
+25152 kill(25151, 0)                             = 0
+25152 __printf_chk(1, 0x4018a0, 0x60216a, 0x7ffe8ee22190 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... __printf_chk resumed> )               = 48
+25152 fopen("/tmp/clonelab_autograde", "a")      = 0x11f2670
+25152 fprintf(0x11f2670, "%s\n", "part2: 2_registerExec level1.1, "... <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25152 <... fprintf resumed> )                    = 38
+25152 fclose(0x11f2670 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25152 <... fclose resumed> )                     = 0
+25152 wait(nil)                                  = -1
+25152 exit(0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <no return ...>
+25152 +++ exited (status 0) +++
+25151 --- SIGCHLD (Child exited) ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 <... wait resumed> )                       = 25152
+25151 fork( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... fork resumed> )                       = 0
+25151 <... fork resumed> )                       = 25154
+25154 getppid( <unfinished ...>
+25151 wait(nil <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... getppid resumed> )                    = 25151
+25149 <... kill resumed> )                       = 0
+25154 getpid( <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25154 <... getpid resumed> )                     = 25154
+25154 getenv("NOREPORT")                         = nil
+25154 getpid()                                   = 25154
+25154 sprintf( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25154 <... sprintf resumed> "part2: registerProc 1, 2, 25154,"..., "part2: registerProc %d, %d, %d, "..., 1, 2, 25154, 25151) = 38
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... fopen resumed> )                      = 0x145e8b0
+25154 fprintf(0x145e8b0, "%s\n", "part2: registerProc 1, 2, 25154,"...) = 39
+25154 fclose(0x145e8b0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25154 <... fclose resumed> )                     = 0
+25149 usleep(1000 <unfinished ...>
+25154 fork( <unfinished ...>
+25155 <... fork resumed> )                       = 0
+25154 <... fork resumed> )                       = 25155
+25155 getppid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25154 wait(nil <unfinished ...>
+25155 <... getppid resumed> )                    = 25154
+25155 getpid( <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25155 <... getpid resumed> )                     = 25155
+25149 <... kill resumed> )                       = 0
+25155 getenv("NOREPORT" <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25155 <... getenv resumed> )                     = nil
+25155 getpid()                                   = 25155
+25155 sprintf("part2: registerProc 2, 2, 25155,"..., "part2: registerProc %d, %d, %d, "..., 2, 2, 25155, 25154) = 38
+25155 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25155 <... fopen resumed> )                      = 0x145e8b0
+25149 usleep(1000 <unfinished ...>
+25155 fprintf(0x145e8b0, "%s\n", "part2: registerProc 2, 2, 25155,"...) = 39
+25155 fclose(0x145e8b0)                          = 0
+25155 execl(0x4023a7, 0x40239e, 0, 1 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25155 --- Called exec() ---
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25155 __libc_start_main([ "level2.2" ] <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25155 getpid()                                   = 25155
+25155 __sprintf_chk(0x7ffdb0100aa0, 1, 50, 0x40178b <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25155 <... __sprintf_chk resumed> )              = 37
+25155 signal(SIGUSR1, 0x4013d0)                  = nil
+25155 fopen("/tmp/clonelab_autograde", "a")      = 0x1b86260
+25149 <... usleep resumed> )                     = <void>
+25155 fprintf(0x1b86260, "%s\n", "part2: 2_registerExec level2.2, "... <unfinished ...>
+25149 kill(25148, SIGUSR2)                       = 0
+25155 <... fprintf resumed> )                    = 38
+25155 fclose(0x1b86260 <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25155 <... fclose resumed> )                     = 0
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25155 __sprintf_chk(0x7ffdb0100a80, 1, 20, 0x401807 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25155 <... __sprintf_chk resumed> )              = 8
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25155 wait(nil <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25155 <... wait resumed> )                       = -1
+25149 usleep(1000 <unfinished ...>
+25155 exit(0 <no return ...>
+25155 +++ exited (status 0) +++
+25154 --- SIGCHLD (Child exited) ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... wait resumed> )                       = 25155
+25154 fork( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25156 <... fork resumed> )                       = 0
+25154 <... fork resumed> )                       = 25156
+25156 getppid( <unfinished ...>
+25154 wait(nil <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25156 <... getppid resumed> )                    = 25154
+25156 getpid()                                   = 25156
+25156 getenv("NOREPORT")                         = nil
+25156 getpid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25156 <... getpid resumed> )                     = 25156
+25156 sprintf( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25156 <... sprintf resumed> "part2: registerProc 2, 3, 25156,"..., "part2: registerProc %d, %d, %d, "..., 2, 3, 25156, 25154) = 38
+25149 usleep(1000 <unfinished ...>
+25156 fopen("/tmp/clonelab_autograde", "a")      = 0x145e8b0
+25156 fprintf(0x145e8b0, "%s\n", "part2: registerProc 2, 3, 25156,"... <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25156 <... fprintf resumed> )                    = 39
+25156 fclose(0x145e8b0)                          = 0
+25156 fwrite(" (message from process level2.3)"..., 1, 33, 0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25156 <... fwrite resumed> )                     = 33
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25156 fclose(0x145c260 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25156 <... fclose resumed> )                     = 0
+25156 execl(0x4023e3, 0x4023da, 0, 2 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25156 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25156 __libc_start_main([ "level2.3" ] <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25156 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25156 <... getpid resumed> )                     = 25156
+25156 __sprintf_chk(0x7ffc12a2c1f0, 1, 50, 0x40178b) = 37
+25156 signal(SIGUSR1, 0x4013d0)                  = nil
+25156 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25156 <... fopen resumed> )                      = 0x1674260
+25156 fprintf(0x1674260, "%s\n", "part2: 2_registerExec level2.3, "...) = 38
+25156 fclose(0x1674260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25156 <... fclose resumed> )                     = 0
+25149 usleep(1000 <unfinished ...>
+25156 __sprintf_chk(0x7ffc12a2c1d0, 1, 20, 0x401807) = 8
+25156 wait(nil)                                  = -1
+25156 exit(0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25156 +++ exited (status 0) +++
+25149 usleep(1000 <no return ...>
+25154 --- SIGCHLD (Child exited) ---
+25154 <... wait resumed> )                       = 25156
+25154 fwrite(" (message from process level1.2)"..., 1, 33, 0x145c260) = 33
+25154 fclose(0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... fclose resumed> )                     = 0
+25154 execl(0x402423, 0x40241a, 0x7ffef31b8d50, 0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25154 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 __libc_start_main([ "level1.2", "25151" ] <unfinished ...>
+25154 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... getpid resumed> )                     = 25154
+25154 __sprintf_chk(0x7ffd68729230, 1, 50, 0x40178b) = 37
+25154 signal(SIGUSR1, 0x4013d0)                  = nil
+25154 strtol(0x7ffd6872b5b7, 0, 10, 0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... strtol resumed> )                     = 0x623f
+25154 getppid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... getppid resumed> )                    = 25151
+25154 usleep(50000 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25154 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 kill(25151, 0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25154 <... kill resumed> )                       = 0
+25154 __printf_chk(1, 0x4018a0, 0x60216a, 0x7ffd687291f0 <unfinished ...>
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... __printf_chk resumed> )               = 48
+25154 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... fopen resumed> )                      = 0x1f0f670
+25154 fprintf(0x1f0f670, "%s\n", "part2: 2_registerExec level1.2, "...) = 38
+25154 fclose(0x1f0f670 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25154 <... fclose resumed> )                     = 0
+25154 wait(nil <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25154 <... wait resumed> )                       = -1
+25154 exit(0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25154 +++ exited (status 0) +++
+25149 kill(25148, SIGUSR2 <no return ...>
+25151 --- SIGCHLD (Child exited) ---
+25151 <... wait resumed> )                       = 25154
+25149 <... kill resumed> )                       = 0
+25151 fork( <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25157 <... fork resumed> )                       = 0
+25151 <... fork resumed> )                       = 25157
+25157 getppid( <unfinished ...>
+25151 wait(nil <unfinished ...>
+25157 <... getppid resumed> )                    = 25151
+25157 getpid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... getpid resumed> )                     = 25157
+25157 getenv("NOREPORT")                         = nil
+25149 <... kill resumed> )                       = 0
+25157 getpid( <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25157 <... getpid resumed> )                     = 25157
+25157 sprintf("part2: registerProc 1, 3, 25157,"..., "part2: registerProc %d, %d, %d, "..., 1, 3, 25157, 25151) = 38
+25157 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... fopen resumed> )                      = 0x145e8b0
+25157 fprintf(0x145e8b0, "%s\n", "part2: registerProc 1, 3, 25157,"... <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 <... fprintf resumed> )                    = 39
+25157 fclose(0x145e8b0)                          = 0
+25157 fwrite(" (message from process level1.3)"..., 1, 33, 0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... fwrite resumed> )                     = 33
+25157 fclose(0x145c260 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... fclose resumed> )                     = 0
+25157 fork( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 <... fork resumed> )                       = 25158
+25158 <... fork resumed> )                       = 0
+25157 wait(nil <unfinished ...>
+25158 getppid()                                  = 25157
+25158 getpid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25158 <... getpid resumed> )                     = 25158
+25158 getenv("NOREPORT" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25158 <... getenv resumed> )                     = nil
+25149 usleep(1000 <unfinished ...>
+25158 getpid()                                   = 25158
+25158 sprintf( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25158 <... sprintf resumed> "part2: registerProc 2, 4, 25158,"..., "part2: registerProc %d, %d, %d, "..., 2, 4, 25158, 25157) = 38
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25158 fopen("/tmp/clonelab_autograde", "a")      = 0x145c260
+25158 fprintf(0x145c260, "%s\n", "part2: registerProc 2, 4, 25158,"... <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25158 <... fprintf resumed> )                    = 39
+25158 fclose(0x145c260)                          = 0
+25158 execl(0x402463, 0x40245a, 0, 2 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25158 --- Called exec() ---
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25158 __libc_start_main([ "level2.4" ] <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25158 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25158 <... getpid resumed> )                     = 25158
+25149 usleep(1000 <unfinished ...>
+25158 __sprintf_chk(0x7ffdefb52af0, 1, 50, 0x40178b) = 37
+25158 signal(SIGUSR1, 0x4013d0)                  = nil
+25158 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25158 <... fopen resumed> )                      = 0x1993260
+25158 fprintf(0x1993260, "%s\n", "part2: 2_registerExec level2.4, "... <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25158 <... fprintf resumed> )                    = 38
+25158 fclose(0x1993260)                          = 0
+25158 __sprintf_chk(0x7ffdefb52ad0, 1, 20, 0x401807) = 8
+25158 getenv("NO_CHILD_TOKEN" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25158 <... getenv resumed> )                     = nil
+25158 fork( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25158 <... fork resumed> )                       = 25159
+25159 <... fork resumed> )                       = 0
+25158 exit(0 <unfinished ...>
+25159 exit(0 <no return ...>
+25158 +++ exited (status 0) +++
+25157 --- SIGCHLD (Child exited) ---
+25157 <... wait resumed> )                       = 25158
+25157 execl(0x40247d, 0x402474, 0x7ffef31b8d50, 0 <no return ...>
+25159 +++ exited (status 0) +++
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25157 --- Called exec() ---
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 __libc_start_main([ "level1.3", "25151" ] <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 <... getpid resumed> )                     = 25157
+25157 __sprintf_chk(0x7ffe36572010, 1, 50, 0x40178b) = 37
+25157 signal(SIGUSR1, 0x4013d0)                  = nil
+25157 strtol(0x7ffe365735b7, 0, 10, 0)           = 0x623f
+25149 <... usleep resumed> )                     = <void>
+25157 getppid( <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... getppid resumed> )                    = 25151
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 usleep(50000 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25157 <... usleep resumed> )                     = <void>
+25149 <... usleep resumed> )                     = <void>
+25157 kill(25151, 0 <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... kill resumed> )                       = 0
+25149 <... kill resumed> )                       = 0
+25157 __printf_chk(1, 0x4018a0, 0x60216a, 0x7ffe36571fd0 <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25157 <... __printf_chk resumed> )               = 48
+25157 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... fopen resumed> )                      = 0x20c3670
+25149 <... kill resumed> )                       = 0
+25157 fprintf(0x20c3670, "%s\n", "part2: 2_registerExec level1.3, "... <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25157 <... fprintf resumed> )                    = 38
+25157 fclose(0x20c3670)                          = 0
+25157 wait(nil <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25157 <... wait resumed> )                       = -1
+25157 exit(0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000)                               = <void>
+25157 +++ exited (status 0) +++
+25151 --- SIGCHLD (Child exited) ---
+25151 <... wait resumed> )                       = 25157
+25151 fork( <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 <... fork resumed> )                       = 25160
+25160 <... fork resumed> )                       = 0
+25151 wait(nil <unfinished ...>
+25160 getppid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... getppid resumed> )                    = 25151
+25160 getpid()                                   = 25160
+25160 getenv("NOREPORT" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 <... getenv resumed> )                     = nil
+25160 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25160 <... getpid resumed> )                     = 25160
+25160 sprintf( <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25160 <... sprintf resumed> "part2: registerProc 1, 4, 25160,"..., "part2: registerProc %d, %d, %d, "..., 1, 4, 25160, 25151) = 38
+25160 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25160 <... fopen resumed> )                      = 0x145e8b0
+25149 usleep(1000 <unfinished ...>
+25160 fprintf(0x145e8b0, "%s\n", "part2: registerProc 1, 4, 25160,"...) = 39
+25160 fclose(0x145e8b0)                          = 0
+25160 fork()                                     = 25161
+25161 <... fork resumed> )                       = 0
+25160 wait(nil <unfinished ...>
+25161 getppid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25161 <... getppid resumed> )                    = 25160
+25161 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25161 <... getpid resumed> )                     = 25161
+25149 usleep(1000 <unfinished ...>
+25161 getenv("NOREPORT")                         = nil
+25161 getpid()                                   = 25161
+25161 sprintf("part2: registerProc 2, 5, 25161,"..., "part2: registerProc %d, %d, %d, "..., 2, 5, 25161, 25160) = 38
+25149 <... usleep resumed> )                     = <void>
+25161 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... fopen resumed> )                      = 0x145e8b0
+25161 fprintf(0x145e8b0, "%s\n", "part2: registerProc 2, 5, 25161,"...) = 39
+25161 fclose(0x145e8b0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25161 <... fclose resumed> )                     = 0
+25161 fwrite(" (message from process level2.5)"..., 1, 33, 0x145c260 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... fwrite resumed> )                     = 33
+25161 fclose(0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... fclose resumed> )                     = 0
+25161 execl(0x4024bb, 0x4024b2, 0, 2 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <no return ...>
+25161 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 __libc_start_main([ "level2.5" ] <unfinished ...>
+25161 getpid( <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25161 <... getpid resumed> )                     = 25161
+25161 __sprintf_chk(0x7fff8b2008b0, 1, 50, 0x40178b) = 37
+25161 signal(SIGUSR1, 0x4013d0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... signal resumed> )                     = nil
+25161 fopen("/tmp/clonelab_autograde", "a")      = 0x101b260
+25161 fprintf(0x101b260, "%s\n", "part2: 2_registerExec level2.5, "... <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25161 <... fprintf resumed> )                    = 38
+25161 fclose(0x101b260 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... fclose resumed> )                     = 0
+25161 __sprintf_chk(0x7fff8b200890, 1, 20, 0x401807 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25161 <... __sprintf_chk resumed> )              = 8
+25161 wait(nil <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25161 <... wait resumed> )                       = -1
+25161 exit(0 <no return ...>
+25161 +++ exited (status 0) +++
+25160 --- SIGCHLD (Child exited) ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 <... wait resumed> )                       = 25161
+25160 execl(0x4024d5, 0x4024cc, 0x7ffef31b8d50, 0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25160 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25160 __libc_start_main([ "level1.4", "25151" ] <unfinished ...>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... getpid resumed> )                     = 25160
+25160 __sprintf_chk(0x7ffcf81d7280, 1, 50, 0x40178b <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 <... __sprintf_chk resumed> )              = 37
+25160 signal(SIGUSR1, 0x4013d0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... signal resumed> )                     = nil
+25160 strtol(0x7ffcf81d85b7, 0, 10, 0)           = 0x623f
+25160 getppid()                                  = 25151
+25160 usleep(50000 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... usleep resumed> )                     = <void>
+25160 kill(25151, 0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 <... kill resumed> )                       = 0
+25160 __printf_chk(1, 0x4018a0, 0x60216a, 0x7ffcf81d7240 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... __printf_chk resumed> )               = 48
+25160 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25160 <... fopen resumed> )                      = 0x155e670
+25160 fprintf(0x155e670, "%s\n", "part2: 2_registerExec level1.4, "... <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25160 <... fprintf resumed> )                    = 38
+25160 fclose(0x155e670)                          = 0
+25160 wait(nil)                                  = -1
+25160 exit(0 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25160 +++ exited (status 0) +++
+25149 kill(25148, SIGUSR2 <no return ...>
+25151 --- SIGCHLD (Child exited) ---
+25149 <... kill resumed> )                       = 0
+25151 <... wait resumed> )                       = 25160
+25149 usleep(1000 <unfinished ...>
+25151 fwrite(" (message from process level0)\n", 1, 31, 0x145c260) = 31
+25151 fclose(0x145c260 <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25151 <... fclose resumed> )                     = 0
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 execl(0x402528, 0x402521, 0x402508, 0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25151 --- Called exec() ---
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = 0
+25149 usleep(1000 <unfinished ...>
+25151 __libc_start_main([ "level0", "ca5b2d134efd0252a9e8ad5e" ] <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 getpid( <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25151 <... getpid resumed> )                     = 25151
+25151 __sprintf_chk(0x7ffc5a590a90, 1, 50, 0x40178b) = 35
+25151 signal(SIGUSR1, 0x4013d0)                  = nil
+25151 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 <... fopen resumed> )                      = 0x166f260
+25149 <... kill resumed> )                       = 0
+25151 fprintf(0x166f260, "%s\n", "part2: 2_registerExec level0, 25"... <unfinished ...>
+25149 usleep(1000 <unfinished ...>
+25151 <... fprintf resumed> )                    = 36
+25151 fclose(0x166f260)                          = 0
+25151 __printf_chk(1, 0x4017a8, 0x602188, 1)     = 19
+25151 wait(nil <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25151 <... wait resumed> )                       = -1
+25151 exit(0 <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <no return ...>
+25151 +++ exited (status 0) +++
+25147 --- SIGCHLD (Child exited) ---
+25147 <... pause resumed> )                      = 0xffffffff
+25147 puts("\n" <unfinished ...>
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <unfinished ...>
+25147 <... puts resumed> )                       = 2
+25147 fopen("/tmp/clonelab_autograde", "a" <unfinished ...>
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000 <unfinished ...>
+25147 <... fopen resumed> )                      = 0x145c260
+25147 fprintf(0x145c260, "%s\n", "ENDREPORT")    = 10
+25147 fclose(0x145c260)                          = 0
+25149 <... usleep resumed> )                     = <void>
+25149 kill(25148, SIGUSR2 <no return ...>
+25147 +++ exited (status 0) +++
+25149 <... kill resumed> )                       = 0
+25149 usleep(1000)                               = <void>
+25149 kill(25148, SIGUSR2)                       = -1
+25149 exit(0 <no return ...>
+25149 +++ exited (status 0) +++
