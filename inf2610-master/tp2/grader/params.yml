@@ -1,0 +1,46 @@
+PART2_PROCESS_TREE:
+  children:
+  - children:
+    - level: 2
+      name: level2.1
+      print: false
+      token: ''
+    - level: 2
+      name: level2.2
+      print: true
+      token: ''
+    level: 1
+    name: level1.1
+    print: true
+    token: 630e83
+  - children:
+    - level: 2
+      name: level2.3
+      print: false
+      token: ''
+    level: 1
+    name: level1.2
+    print: true
+    token: 1c0899
+  - children:
+    - level: 2
+      name: level2.4
+      print: true
+      token: ''
+    level: 1
+    name: level1.3
+    print: false
+    token: cb57c8
+  - children:
+    - level: 2
+      name: level2.5
+      print: true
+      token: ''
+    level: 1
+    name: level1.4
+    print: false
+    token: d76f60
+  level: 0
+  name: level0
+  print: true
+  token: 630e831c0899cb57c8d76f60
